@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".fragments.AnimalsFragment">
+
+    <ImageView
+        android:id="@+id/imageView_animalCao"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/cao"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_animalGato"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/gato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_animalLeao"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/leao"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_animalCao" />
+
+    <ImageView
+        android:id="@+id/imageView_animalMacaco"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/macaco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_animalGato" />
+
+    <ImageView
+        android:id="@+id/imageView_animaOvelha"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/ovelha"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_animalLeao" />
+
+    <ImageView
+        android:id="@+id/imageView_animalVaca"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/vaca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_animalMacaco" />
+
+    <TextView
+        android:id="@+id/textView_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Author test"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.50121653"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
