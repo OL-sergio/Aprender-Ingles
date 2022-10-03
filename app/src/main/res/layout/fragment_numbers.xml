@@ -9,64 +9,70 @@
     tools:context=".fragments.NumbersFragment">
 
     <ImageView
-        android:id="@+id/imageView_numberOne"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="75dp"
+        android:id="@+id/imageView_numberUm"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="42dp"
         android:background="@drawable/um"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView_numberTwo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="75dp"
+        android:id="@+id/imageView_numberDois"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="42dp"
         android:background="@drawable/dois"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView_numberThree"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/imageView_numberTres"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="42dp"
         android:background="@drawable/tres"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_numberOne" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_numberUm" />
 
     <ImageView
-        android:id="@+id/imageView_numberFour"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/imageView_numberQuartro"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="42dp"
         android:background="@drawable/quatro"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_numberTwo" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_numberDois" />
 
     <ImageView
-        android:id="@+id/imageView_numberFive"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/imageView_numberCinco"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="42dp"
         android:background="@drawable/cinco"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_numberThree" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_numberTres" />
 
     <ImageView
-        android:id="@+id/imageView_numberSix"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/imageView_numberSeis"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="42dp"
         android:background="@drawable/seis"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_numberFour" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_numberQuartro" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
